@@ -25,31 +25,37 @@ class Ui_Widget(object):
         Widget.resize(800, 600)
         self.pushButton = QPushButton(Widget)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(120, 400, 221, 91))
-        self.widget = QWidget(Widget)
-        self.widget.setObjectName(u"widget")
-        self.widget.setGeometry(QRect(470, 200, 241, 281))
-        self.verticalLayout = QVBoxLayout(self.widget)
+        self.pushButton.setGeometry(QRect(130, 430, 171, 41))
+        self.layoutWidget = QWidget(Widget)
+        self.layoutWidget.setObjectName(u"layoutWidget")
+        self.layoutWidget.setGeometry(QRect(480, 110, 241, 281))
+        self.verticalLayout = QVBoxLayout(self.layoutWidget)
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
-        self.horizontalSlider = QSlider(self.widget)
+        self.horizontalSlider = QSlider(self.layoutWidget)
         self.horizontalSlider.setObjectName(u"horizontalSlider")
         self.horizontalSlider.setOrientation(Qt.Orientation.Horizontal)
 
         self.verticalLayout.addWidget(self.horizontalSlider)
 
-        self.horizontalSlider_2 = QSlider(self.widget)
+        self.horizontalSlider_2 = QSlider(self.layoutWidget)
         self.horizontalSlider_2.setObjectName(u"horizontalSlider_2")
         self.horizontalSlider_2.setOrientation(Qt.Orientation.Horizontal)
 
         self.verticalLayout.addWidget(self.horizontalSlider_2)
 
-        self.horizontalSlider_3 = QSlider(self.widget)
+        self.horizontalSlider_3 = QSlider(self.layoutWidget)
         self.horizontalSlider_3.setObjectName(u"horizontalSlider_3")
         self.horizontalSlider_3.setOrientation(Qt.Orientation.Horizontal)
 
         self.verticalLayout.addWidget(self.horizontalSlider_3)
 
+        self.widget_2 = QWidget(Widget)
+        self.widget_2.setObjectName(u"widget_2")
+        self.widget_2.setGeometry(QRect(30, 80, 391, 331))
+        self.pushButton_2 = QPushButton(Widget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(570, 440, 83, 29))
 
         self.retranslateUi(Widget)
 
@@ -59,5 +65,6 @@ class Ui_Widget(object):
     def retranslateUi(self, Widget):
         Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
         self.pushButton.setText(QCoreApplication.translate("Widget", u"SELECT IMAGE", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Widget", u"Blur", None))
     # retranslateUi
 
