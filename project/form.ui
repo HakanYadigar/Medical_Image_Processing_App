@@ -16,21 +16,21 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>400</y>
-     <width>221</width>
-     <height>91</height>
+     <x>130</x>
+     <y>430</y>
+     <width>171</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
     <string>SELECT IMAGE</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>200</y>
+     <x>480</x>
+     <y>110</y>
      <width>241</width>
      <height>281</height>
     </rect>
@@ -58,6 +58,29 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>391</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>440</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Blur</string>
+   </property>
   </widget>
  </widget>
  <resources/>
