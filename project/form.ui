@@ -45,6 +45,12 @@
     </item>
     <item>
      <widget class="QSlider" name="horizontalSlider_2">
+      <property name="maximum">
+       <number>100</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
       <property name="orientation">
        <enum>Qt::Orientation::Horizontal</enum>
       </property>
@@ -79,7 +85,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Blur</string>
+    <string>EDGES</string>
    </property>
   </widget>
  </widget>
