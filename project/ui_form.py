@@ -58,6 +58,9 @@ class Ui_Widget(object):
         self.pushButton_2 = QPushButton(Widget)
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setGeometry(QRect(570, 440, 83, 29))
+        self.pushButton_3 = QPushButton(Widget)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(570, 480, 83, 29))
 
         self.retranslateUi(Widget)
 
@@ -68,5 +71,6 @@ class Ui_Widget(object):
         Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
         self.pushButton.setText(QCoreApplication.translate("Widget", u"SELECT IMAGE", None))
         self.pushButton_2.setText(QCoreApplication.translate("Widget", u"EDGES", None))
+        self.pushButton_3.setText(QCoreApplication.translate("Widget", u"CIRCLE", None))
     # retranslateUi
 
