@@ -40,6 +40,8 @@ class Ui_Widget(object):
 
         self.horizontalSlider_2 = QSlider(self.layoutWidget)
         self.horizontalSlider_2.setObjectName(u"horizontalSlider_2")
+        self.horizontalSlider_2.setMaximum(100)
+        self.horizontalSlider_2.setSingleStep(1)
         self.horizontalSlider_2.setOrientation(Qt.Orientation.Horizontal)
 
         self.verticalLayout.addWidget(self.horizontalSlider_2)
@@ -65,6 +67,6 @@ class Ui_Widget(object):
     def retranslateUi(self, Widget):
         Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
         self.pushButton.setText(QCoreApplication.translate("Widget", u"SELECT IMAGE", None))
-        self.pushButton_2.setText(QCoreApplication.translate("Widget", u"Blur", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Widget", u"EDGES", None))
     # retranslateUi
 
