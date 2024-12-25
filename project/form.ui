@@ -88,6 +88,19 @@
     <string>EDGES</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>480</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CIRCLE</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
