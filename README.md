@@ -42,7 +42,15 @@ This project is a GUI application for image processing using PySide6 and OpenCV.
 - NumPy
 
 ## Screenshots
-![Application Screenshot](Medical_Image_Processing_App/Screenshots/)
+
+### Main Window
+![Main Window](screenshots/main_window.png)
+
+### Circle Detection
+![Edge Detection](screenshots/detected_circles.png)
+
+### Precise Edge Detection
+![Edge Detection](screenshots/precise_edge.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
