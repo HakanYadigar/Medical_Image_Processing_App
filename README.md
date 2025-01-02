@@ -42,7 +42,7 @@ This project is a GUI application for image processing using PySide6 and OpenCV.
 - NumPy
 
 ## Screenshots
-![Application Screenshot](path/to/screenshot.png)
+![Application Screenshot](path/to/Screenshot.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
